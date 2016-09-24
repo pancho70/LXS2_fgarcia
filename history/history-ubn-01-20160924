@@ -1,0 +1,195 @@
+    1  sudo apt-get install gparted
+    2  sudo apt-get install lvm2
+    3  dpkg --get -selections | grep lv
+    4  dpkg --get-selections | grep lv
+    5  fdisk -1
+    6  fdisk -l
+    7  sudo fdisk -l
+    8  sudo fdisk /dev/sda
+    9  pvdisplay
+   10  sudo su - 
+   11  netstat -ltuap
+   12  sudo apt-get install openssh-server 
+   13  netstat -ltuap | grep listen
+   14  netstat -ltuap
+   15  netstat -ltuap | grep
+   16  netstat -ltuap | grep listen
+   17  sudo route -n
+   18  netstat -ltuap
+   19  netstat -ltuap | listen
+   20  sudo netstat -ltuap | grep listen
+   21  netstat -ltuap | grep listen
+   22  sudo -s
+   23  fdisk -l
+   24  sudo fdisk -l
+   25  sudo adduser user1
+   26  id user1
+   27  sudo usermod -a G sudo user1
+   28  sudo usermod -a G sudo sysadmin
+   29  id
+   30  pwd
+   31  sudo apt-get install git
+   32  sudo apt-get install openssh-server
+   33  git clone https://github.com/pancho70/lsx2_fgarcia
+   34  git clone https://github.com/pancho70/LXS2_fgarcia
+   35  dmesg | wc
+   36  netstat -ltuap | grep listen
+   37  sudo netstat -ltuap | grep listen
+   38  sudo netstat -ltuap | listen
+   39  sudo netstat -ltuap listen
+   40  netstat -ltuap | grep
+   41  sudo netstat -ltuap | grep
+   42  sudo netstat -ltuap | grep LISTEN
+   43  netstat -ltuap | grep LISTEN > /tmp/servicios-$HOSTAME
+   44  ls -l /tmp
+   45* 
+   46  cat /tmp/servicios
+   47* cat 
+   48  cat /tmp/servicios-ubn-01
+   49  netstat -ltuap | grep LISTEN > /tmp/servicios-$HOSTNAME 2> /tmp/servicios-$HOSTNAME.err
+   50  ls /tmp/
+   51  touch Music/song.mpt
+   52  ls Music
+   53  ls Music/ algo
+   54  ls Music/ algo > otro 2>error 
+   55  cat otro
+   56  cat error
+   57  ls Music/ scripts > otro 2>error 
+   58  cat error
+   59  ls Music/ scripts > otro 2>>error 
+   60  cat error
+   61  cat otro
+   62  ls -lh Music/ scripts > otro 2>> error 
+   63  cat otro
+   64  ls Music/ scripts > otro 2>> error 
+   65  cat otro
+   66  ls -lh Music/ scripts &>> error2 
+   67  cat error2
+   68  history
+   69  touch Music/song.mpt
+   70  ls Music/
+   71  ls Music/ algo
+   72  ls Music/ algo > otro 2> error
+   73  cat otro
+   74  ls Music/ scripts > otro 2> error
+   75  cat error
+   76  touch scripts
+   77  ls Music/ scripts > otro 2>> error
+   78  cat error
+   79  cat otro
+   80  ls -lh Music/ scripts > otro 2>> error
+   81  cat otro
+   82  ls -lh Music/ scripts >> otro 2>> error
+   83  cat otro
+   84  ls -lh Music/ scripts casa  2>> error
+   85  cat error
+   86  ls -lh Music/ scripts casa  2> error
+   87  cat error
+   88  ls -lh Music/ scripts casa  2>> error
+   89  cat error
+   90  ls -lh Music/ scripts &>> error2
+   91  cat error2
+   92  rm scripts
+   93* 
+   94  cat erro2
+   95  cat error2
+   96  cowsay hola
+   97  sudo apt-get install cowsay
+   98  cowsay hola
+   99  cd /tmp
+  100  cd /misc
+  101  ls
+  102  cd /home
+  103  ls
+  104  cd sysadmin
+  105  ls 
+  106  ~
+  107  pwd
+  108  cd ..
+  109  ls
+  110  cd /tmp
+  111  ls
+  112  cd /misc
+  113  find misc
+  114  git clone https://github.com/emvarg/LXS2_emmanuel. git
+  115  git clone https://github.com/emvarg/LXS2_emmanuel.git
+  116  ls
+  117  statusd
+  118  status
+  119  sudo apt-get install tree
+  120  cd 
+  121  l
+  122  ls
+  123  pwd
+  124  git clone https://github.com/emvarg/LXS2_emmanuel.git
+  125  ls
+  126  tree LXS2_emmanuel/
+  127  cd LXS2_fgarcia/
+  128  ls
+  129  git log
+  130  ls
+  131  git status 
+  132  ls
+  133  cd
+  134  pwd
+  135  mkdir LXS2_fgarcia/misc/clase3
+  136  tree LXS2_fgarcia/
+  137  cp LXS2_emmanuel/misc/dhcpd.conf  LXS2_fgarcia/misc/clase3/
+  138  tre LXS2_fgarcia/
+  139  tree LXS2_fgarcia/
+  140  cd LXS2_fgarcia/misc/clase3/
+  141  ls
+  142  cat dhcp.conf | grep -v "#" | grep "fixed" | grep "163." | awk " " '{print $4}' | sort > red-blanca 
+  143* cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "192." | awk " " '{print $4}' | sort > red-blanca
+  144  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "163." | awk " " '{print $4}' | sort
+  145  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "192." | awk " " '{print $4}' | sort
+  146  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "10." | awk " " '{print $4}' | sort
+  147  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "10." | awk " " '{print $4}' | sort > red-blanca
+  148  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "192." | awk " " '{print $4}' | sort > red-azul
+  149  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "163." | awk " " '{print $4}' | sort > red-verde
+  150  ls
+  151  cd red-azul
+  152  vim red-azul
+  153  sudo apt-get install vim
+  154  sudo apt-get install vim-nox 
+  155* vim-nox
+  156* [A
+  157  vim red-azul
+  158  tree LXS2_fgarcia/
+  159  ls
+  160* 
+  161  ls -la
+  162  tree LXS2_emmanuel/
+  163  tree LXS2_fgarcia/
+  164  tree /LXS2_fgarcia
+  165  cd ..
+  166  ls
+  167  cd file
+  168  cd clase
+  169  cd clase3
+  170  ls 
+  171  cat dhcp.conf | grep -v "#" | grep "fixed" | grep "163." | awk " " '{print $1}' | sort
+  172  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "163." | awk " " '{print $1}' | sort
+  173  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "192." | awk " " '{print $2}' | sort
+  174  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "10." | awk " " '{print $3}' | sort
+  175  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "10." | awk " " '{print $4}' | sort > red-blanca
+  176  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "192." | awk " " '{print $5}' | sort > red-azul
+  177  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "10.2" | awk " " '{print $3}' | sort
+  178  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "10.2" | awk " " '{print $4}' | sort
+  179  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "10.2" | awk " " '{print $4}' | sort > red-blanca
+  180  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "10.0.123." | awk " " '{print $4}' | sort > red-blanca
+  181  cat dhcpd.conf | grep -v "#" | grep "fixed" | grep "10.2." | awk " " '{print $4}' | sort > red-blanca
+  182  history
+  183  cd..
+  184  cd ..
+  185  cd.. 
+  186  cd  
+  187  cd ..
+  188  cd LXS2_fgarcia
+  189  ls
+  190  cd sysadmin
+  191  ls
+  192  cd LXS2_fgarcia
+  193  history > history/file
+  194  ls
+  195  history > history/history-$HOSTNAME-`date +%Y%m%d`
